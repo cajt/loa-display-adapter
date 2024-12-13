@@ -1,0 +1,5 @@
+def init(repo):
+	repo.name = "st7565_capture"
+
+def prepare(repo, options):
+	repo.add_modules_recursive("modules", modulefile="*.lb")

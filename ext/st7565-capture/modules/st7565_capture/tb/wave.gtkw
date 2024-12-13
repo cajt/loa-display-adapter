@@ -1,0 +1,39 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Thu Aug  6 22:25:20 2020
+[*]
+[dumpfile] "/home/calle/projects/fpga_display_converter/breadboard_a/tb/st7565_capture/wave.ghw"
+[dumpfile_mtime] "Thu Aug  6 22:20:54 2020"
+[dumpfile_size] 10660811
+[savefile] "/home/calle/projects/fpga_display_converter/breadboard_a/tb/st7565_capture/wave.gtkw"
+[timestart] 12567500000000
+[size] 1920 1056
+[pos] 1919 -456
+*-34.620296 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.file_tb.
+[treeopen] top.file_tb.st7565_capture_1.
+[treeopen] top.file_tb.st7565_capture_1.r.
+[treeopen] top.file_tb.st7565_capture_1.r.input.
+[sst_width] 196
+[signals_width] 126
+[sst_expanded] 1
+[sst_vpaned_height] 316
+@28
+top.file_tb.rst
+top.file_tb.clk
+top.file_tb.stim_rs
+top.file_tb.stim_cs1
+top.file_tb.stim_cs0
+top.file_tb.stim_clk
+top.file_tb.stim_mosi
+@200
+-
+@28
+top.file_tb.st7565_capture_1.we
+@22
+#{top.file_tb.st7565_capture_1.d[15:0]} top.file_tb.st7565_capture_1.d[15] top.file_tb.st7565_capture_1.d[14] top.file_tb.st7565_capture_1.d[13] top.file_tb.st7565_capture_1.d[12] top.file_tb.st7565_capture_1.d[11] top.file_tb.st7565_capture_1.d[10] top.file_tb.st7565_capture_1.d[9] top.file_tb.st7565_capture_1.d[8] top.file_tb.st7565_capture_1.d[7] top.file_tb.st7565_capture_1.d[6] top.file_tb.st7565_capture_1.d[5] top.file_tb.st7565_capture_1.d[4] top.file_tb.st7565_capture_1.d[3] top.file_tb.st7565_capture_1.d[2] top.file_tb.st7565_capture_1.d[1] top.file_tb.st7565_capture_1.d[0]
+#{top.file_tb.st7565_capture_1.addr[9:0]} top.file_tb.st7565_capture_1.addr[9] top.file_tb.st7565_capture_1.addr[8] top.file_tb.st7565_capture_1.addr[7] top.file_tb.st7565_capture_1.addr[6] top.file_tb.st7565_capture_1.addr[5] top.file_tb.st7565_capture_1.addr[4] top.file_tb.st7565_capture_1.addr[3] top.file_tb.st7565_capture_1.addr[2] top.file_tb.st7565_capture_1.addr[1] top.file_tb.st7565_capture_1.addr[0]
+#{top.file_tb.st7565_capture_1.r.bit_cnt[3:0]} top.file_tb.st7565_capture_1.r.bit_cnt[3] top.file_tb.st7565_capture_1.r.bit_cnt[2] top.file_tb.st7565_capture_1.r.bit_cnt[1] top.file_tb.st7565_capture_1.r.bit_cnt[0]
+[pattern_trace] 1
+[pattern_trace] 0

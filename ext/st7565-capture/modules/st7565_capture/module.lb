@@ -1,0 +1,17 @@
+def init(module):
+	module.name = "st7565_capture"
+
+def prepare(module, options):
+	module.depends("loa-hdl:core")
+	module.depends("loa-hdl:peripheral_register")
+	module.add_option(BooleanOption(
+		name="testbench",
+		description="Generate testbench",
+		default = False))
+	return True
+
+def build(env):
+	env.copy('hdl', 'hdl')
+	if env["::testbench"] == True:
+			env.copy('tb', "tb/st7565_capture")
+			env.copy('../makefile.ghdl.mk', "tb/st7565_capture")
