@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<library xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance"
+         xsd:noNamespaceSchemaLocation="https://github.com/dergraaf/library-builder/lbuild/resources/configuration.xsd">
+
+  <repositories>
+    <repository>
+      <path>../ext/modm/repo.lb</path>
+    </repository>
+    <cache>../.lbuild_cache</cache>
+  </repositories>
+
+  <options>
+    <option name="modm:target">stm32f042k6t6</option>
+    <option name="modm:build:build.path">./build</option>
+  </options>
+  <modules>
+    <module>modm:board:nucleo-f042k6</module>
+    <module>modm:build:scons</module>
+    <module>modm:communication:sab</module>
+    <module>modm:communication:sab2</module>
+    <module>modm:platform:core</module>
+    <module>modm:platform:uart:1</module>
+    <module>modm:platform:uart:2</module>
+    <module>modm:platform:i2c:1</module>
+    <module>modm:ui:display</module>
+    <module>modm:driver:ea_dog</module>
+    <module>modm:driver:ssd1306</module>
+    <module>modm:ui:display</module>
+    <module>modm:driver:ea_dog</module>
+   
+    <module>modm:debug</module>
+    <module>modm:architecture:delay</module>
+    <module>modm:container</module>
+    <module>modm:processing:protothread</module>
+    <module>modm:processing:resumable</module>
+  </modules>
+</library>
