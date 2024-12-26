@@ -21,14 +21,14 @@ The microcontroller accesses the Loa bus via an UART, some HDLC inspired protoco
 
 There is also a reset generator, a PLL and a GPIO connected to a single LED to run and debug the FPGA.
 
-# Development Setup 
+# Setup - Dev Host
 
-Xubuntu 18.04
-Icecube2 (Version ??)
-modm 2024q3
-loa 
+- Xubuntu 18.04
+- Icecube2 (Version ??)
+- modm 2024q3
+- loa 
 
-# HW Setup
+# Setup - Hardware
 
 See doc/images .
 
