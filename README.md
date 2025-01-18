@@ -26,9 +26,13 @@ There is also a reset generator, a PLL and a GPIO connected to a single LED to r
 # Setup - Dev Host
 
 - Xubuntu 18.04
-- Icecube2 (Version ??)
 - modm 2024q3
+- xpack-arm-none-eabi-gcc-12.2.1-1.2
 - loa 
+- HDl containers
+    ghdl/synth       beta       fb3e9aaa6e33   
+    ghdl/synth       nextpnr    8e4d7630a922   
+    ghdl/synth       icestorm   4ac9e23f74e4 
 
 # Setup - Hardware
 
@@ -39,3 +43,4 @@ See doc/images .
 - Nucleo F042 Board
 - EA 240 display
 - Adafruit Breakout board 
+
