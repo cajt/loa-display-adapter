@@ -1,0 +1,6 @@
+set_io led0_p 99  -io_std SB_LVCMOS # red, up
+#set_io --warn-no-port led4_p 98 -io_std SB_LVCMOS # red, right
+#set_io --warn-no-port led2_p 96 -io_std SB_LVCMOS # red, left
+#set_io --warn-no-port led3_p 97 -io_std SB_LVCMOS # red, down
+
+set_io led1_p 95  -io_std SB_LVCMOS # green 

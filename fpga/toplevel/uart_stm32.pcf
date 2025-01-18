@@ -1,0 +1,6 @@
+# FTDI Port B UART
+#set_io uart2_rx_p 112  -pullup yes # STM32 -> FPGA, PIO0_02 J1-3
+#set_io uart2_tx_p 113  -io_std SB_LVCMOS # FPGA -> STM32, PIO0_03 J1-4
+
+set_io uart2_rx_p 90  -pullup yes # STM32 -> FPGA, PIO1_08 J2-9
+set_io uart2_tx_p 91  -io_std SB_LVCMOS # FPGA -> STM32, PIO1_09 J2-10

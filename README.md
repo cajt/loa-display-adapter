@@ -2,8 +2,10 @@
 
 # Problem solved
 
-A HMP2030 with a broken display. The display is a custom part with no easily available replacement (matching electrical & mechanical interfaces).
+A HMP2030 with a broken display. The display is a custom part with no easily available 
+replacement (matching electrical & mechanical interfaces).
 
+(It also put some unused evaluation-boards to a good use.)
 
 # Architecture 
 

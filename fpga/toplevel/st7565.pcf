@@ -1,0 +1,16 @@
+
+# J3
+#set_io  mosi_p  44  -pullup yes 
+#set_io  sck_p 45 -pullup yes
+#set_io  cs0_n_p 47 -pullup yes
+#set_io  cs1_n_p 48 -pullup yes
+#set_io  rs_p 56 -pullup yes
+
+
+## PMOD connector
+set_io  cs0_n_p 78 -pullup yes  # PIO1_02, J2-1
+set_io  cs1_n_p 79 -pullup yes  # PIO1_03, J2-2
+set_io  rs_p    80 -pullup yes  # PIO1_04, J2-3
+set_io  sck_p   81 -pullup yes  # PIO1_05, J2-4
+set_io  mosi_p  87 -pullup yes  # PIO1_06, J2-7 
+

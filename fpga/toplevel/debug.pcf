@@ -1,0 +1,2 @@
+set_io  debug0_p 119 -io_std SB_LVCMOS # net: PIO0_09, J1-10
+set_io  debug1_p 118 -io_std SB_LVCMOS # net: PIO0_08, J1-09

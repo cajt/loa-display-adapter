@@ -1,0 +1,18 @@
+<library>
+  <repositories>
+    <repository><path>../ext/loa-hdl/loa-hdl.lb</path></repository>
+    <repository><path>../ext/st7565-capture/repo.lb</path></repository>
+  </repositories>
+  <options>
+    <option name="loa-hdl:hdlc:testbench">true</option>
+    <option name="st7565_capture:st7565_capture:testbench">true</option>
+  </options>
+  <modules>
+    <module>loa-hdl:hdlc</module>
+    <module>loa-hdl:pwm</module>
+    <module>loa-hdl:uart</module>
+    <module>loa-hdl:fifo_sync</module>
+    <module>loa-hdl:reset_gen</module>
+    <module>st7565_capture:*</module>
+  </modules>
+</library>

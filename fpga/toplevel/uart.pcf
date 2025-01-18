@@ -1,0 +1,6 @@
+# FTDI Port B UART
+set_io uart_rx_p 9  -pullup yes # FTDI (B-Port) -> FPGA
+set_io uart_tx_p 8  -io_std SB_LVCMOS # FPGA -> FTDI (B-Port)
+
+# 12 MHz clock
+set_io clk_p 21
